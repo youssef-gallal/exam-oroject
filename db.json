@@ -1,0 +1,83 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "username": "youssef",
+      "email": "youssef@galal",
+      "password": "123"
+    }
+  ],
+  "doctor": [
+    {
+      "id": "1",
+      "username": "doctor",
+      "email": "admin@admin",
+      "password": "123"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "dca6",
+      "name": "math",
+      "questions": [
+        {
+          "question": "2*2",
+          "answer1": "1",
+          "answer2": "2",
+          "answer3": "3",
+          "answer4": "4",
+          "correctanswer": "4"
+        }
+      ]
+    },
+    {
+      "id": "8729",
+      "name": "math",
+      "questions": [
+        {
+          "question": "2*2",
+          "answer1": "1",
+          "answer2": "2",
+          "answer3": "3",
+          "answer4": "4",
+          "correctanswer": "4"
+        }
+      ]
+    },
+    {
+      "id": "0abe",
+      "name": "ss",
+      "questions": [
+        {
+          "question": "s",
+          "answer1": "s",
+          "answer2": "x",
+          "answer3": "x",
+          "answer4": "x",
+          "correctanswer": "x"
+        }
+      ]
+    },
+    {
+      "id": "7d0f",
+      "name": "ss",
+      "questions": [
+        {
+          "question": "s",
+          "answer1": "s",
+          "answer2": "x",
+          "answer3": "x",
+          "answer4": "x",
+          "correctanswer": "x"
+        }
+      ]
+    }
+  ],
+  "login": [
+    {
+      "username": "doctor",
+      "role": "doctor",
+      "id": "1"
+    }
+  ]
+}
