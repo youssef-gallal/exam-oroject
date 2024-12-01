@@ -101,14 +101,14 @@ export class NewExamsComponent implements OnInit {
   }
 
 
-  // dellete(index: number) {
-  //   this.question.slice(index, 1)
+  delete(index: number) {
+    this.question.slice(index, 1)
 
-  //   const model = {
-  //     name: this.subjectName,
-  //     questions: this.question
-  //   }
-  //   this.services.ubdatesubjects(model, this.id).subscribe(res => { alert("success") })
-  // }
-  delete(index: number) { }
+    const model = {
+      name: this.subjectName,
+      questions: this.question
+    }
+    this.services.ubdatesubjects(model, this.id).subscribe(res => { alert("success") })
+  }
+
 }
